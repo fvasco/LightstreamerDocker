@@ -1,5 +1,5 @@
 # Set the base image
-FROM openjdk:8-jre-alpine
+FROM openjdk:8u131-jre-alpine
 
 # Set environment variables to identify the right Lightstreamer version and edition
 ENV LIGHSTREAMER_VERSION=6_1_0_20170123
